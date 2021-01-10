@@ -11,3 +11,5 @@ The profiles and key-user-pairs are stored in an json-file.
 The original bot is currently online and running on an private server in Germany.
 
 This is my first bot or programm for that matter. So if you like it, don't like it, have suggestions feel free to contact me.
+
+wishingwellbot@posteo.de
