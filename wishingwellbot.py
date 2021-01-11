@@ -526,9 +526,9 @@ def grant_a_wish_answer(update, context):
 def spent_some_love(update, context):
 	#simple function asking for feedback and support
 	if get_lang(update.effective_chat.id) == 'eng':
-		text = 'Hey there, \nIf you like the bot and improved your relationship, maybe you want to help me out a bit. Every small donation or nice words to jo.bagd@posteo.de (PayPal) is highly appreciated.'
+		text = 'Hey there, \nIf you like the bot and improved your relationship, maybe you want to help me out a bit. Every small donation or nice words to wishingwellbot@posteo.de (PayPal) is highly appreciated.'
 	elif get_lang(update.effective_chat.id) == 'ger':
-		text = 'Hallihallo, \nWenn du den Bot magst und deine Beziehung verbessert hast, magst du mir vielleicht helfen. Jede kleine Spende, Kritik oder nette Worte an jo.bagd@posteo.de (PayPal) helfen und freuen mich sehr.'
+		text = 'Hallihallo, \nWenn du den Bot magst und deine Beziehung verbessert hast, magst du mir vielleicht helfen. Jede kleine Spende, Kritik oder nette Worte an wishingwellbot@posteo.de (PayPal) helfen und freuen mich sehr.'
 	
 	context.bot.send_message(update.effective_chat.id, text)
 
@@ -547,7 +547,7 @@ def help(update, context):
 		/help - shows you the available commands
 		/settings - let\'s you change the language
 
-		If something is still unclear or you have suggestions to improve the bot, just drop a message to jo.bagd@posteo.de'''
+		If something is still unclear or you have suggestions to improve the bot, just drop a message to wishingwellbot@posteo.de'''
 	elif get_lang(update.effective_chat.id) == 'ger':
 		text = '''Hallo, \nDu benötigst Hilfe? Klar, kein Problem! Hier sind noch einmal alle verfügbaren Befehle:
 		/verbinden - erzeugt einen Schlüssel, um dich mit einer anderen Person zu verbinden
@@ -562,7 +562,7 @@ def help(update, context):
 		/hilfe - zeigt dir alle verfügbaren Befehle
 		/einstellungen - hier kannst du die Sprache des Bots ändern
 
-		Wenn noch immer etwas unklar ist oder du Vorschläge für eine Verbesserung hast, dann schreib mir einfach an jo.bagd@posteo.de.'''
+		Wenn noch immer etwas unklar ist oder du Vorschläge für eine Verbesserung hast, dann schreib mir einfach an wishingwellbot@posteo.de.'''
 	
 	context.bot.send_message(update.effective_chat.id, text)
 
