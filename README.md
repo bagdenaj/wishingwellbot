@@ -13,5 +13,3 @@ The original bot is currently online and running on an private server in Germany
 This is my first bot or programm for that matter. So if you like it, don't like it, have suggestions feel free to contact me.
 
 wishingwellbot@posteo.de
-
-If you want to support me, you can do that here: https://www.buymeacoffee.com/bagdenaj
