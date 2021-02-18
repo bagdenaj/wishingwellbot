@@ -340,9 +340,9 @@ def connect(update, context):
 	#creating and passing a key-user-pair 
 	#this is to keep the keylist clean an to prefent accidental connecting to several persons
 	try:
-		for key in key_list:
+		for entry in key_list:
 			#checks if user already created a key
-			if key['user_chat_id'] == update.effective_chat.id:
+			if entry['user_chat_id'] == update.effective_chat.id:
 				context.bot.send_message(update.effective_chat.id, text)
 				return
 		#checks if user already has a partner
